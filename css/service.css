@@ -1,0 +1,65 @@
+.Service-main {
+    text-align: center;
+    padding: 50px 20px;
+}
+.service-p{
+    font-size: 15px;
+    color:#ff7f50;
+    margin-bottom: 40px;
+    
+
+}
+.service-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #000000;
+    margin-bottom: 40px;
+    
+}
+
+.services {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.service-box {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 300px;
+    text-align: center;
+}
+
+.service-box .icon img {
+    background-color: #F5DDC4;
+    border-radius: 10px;
+    border: none;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    justify-content: center;
+    margin: 15px 150px;
+    
+}
+
+.service-box h3 {
+    font-size: 18px;
+    color: #000000;
+    margin: 40px 0px;
+}
+
+.service-box p {
+    font-size: 14px;
+    color: #000000;
+    margin: 50px 20px;
+}
+
+@media (max-width: 768px) {
+    .services {
+        flex-direction: column;
+        align-items: center;
+    }
+}

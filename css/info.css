@@ -1,0 +1,60 @@
+
+.info-card {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    padding: 50px;
+    width: 90%;
+    max-width: 10000px;
+    justify-content:space-between;
+    padding-left: 80px;
+}
+
+.info-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.icon-container {
+    background-color: #ffae42;
+    border-radius: 50%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 15px;
+}
+
+.icon {
+    width: 24px;
+    height: 24px;
+}
+
+.text-container {
+
+    text-align: center;
+    margin: 25px;
+    justify-content:center;
+}
+
+.main-text {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.sub-text {
+    font-size: 14px;
+    color: grey;
+    margin: 0;
+}
+
+.divider {
+    height: 50px;
+    width: 1px;
+    background-color: #e0e0e0;
+}

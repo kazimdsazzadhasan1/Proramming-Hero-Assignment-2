@@ -1,0 +1,135 @@
+
+footer {
+    width: 100%;
+    background-color: #f9f9f9;
+    padding: 40px 0;
+}
+
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    max-width: 12000px;
+    margin: 0 auto;
+    padding-top: 30px
+}
+
+.footer-section {
+    flex: 1;
+    min-width: 250px;
+    margin: 20px;
+}
+
+.footer-logo {
+    max-width: 150px;
+    margin-bottom: 10px;
+}
+
+.footer-section h3 {
+    margin-bottom: 15px;
+    font-size: 24px;
+    font-weight: bolder;
+    color: #000000;
+}
+
+.footer-section p {
+    color: #666;
+    margin-top: 15px;
+    font-size: 14px;
+    padding: 0;
+    list-style: none;
+
+} 
+.footer-section ul{
+    color: #666;
+    font-size: 14px;
+    margin-bottom: 10px;
+    padding: 0;
+    list-style: none;
+
+} 
+.footer-section li {
+    color: #666;
+    font-size: 14px;
+    margin-bottom: 10px;
+    padding: 0;
+    list-style: none;
+
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section a {
+    color: #666;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer-section a:hover {
+    color: #f90;
+}
+
+.social-icons a {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.social-icons img {
+    width: 30px;
+    height: 30px;
+}
+
+.subscription-formt {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    padding: 0px;
+}
+
+.subscription-formt input {
+    padding: 10px;
+    border: none;
+    border-radius: 20px 0 0 20px;
+    flex: 1;
+    font-size: 14px;
+}
+
+.subscription-formt button {
+    padding: 10px;
+    border: none;
+    background-color: rgb(255, 255, 255);
+    border-radius: 0 20px 20px 0;
+    cursor: pointer;
+}
+
+.subscription-formt img {
+    width: 20px;
+    height: 20px;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    .footer-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-section {
+        min-width: 100%;
+        margin: 10px 0;
+    }
+
+    .subscription-formt {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .subscription-formt input, .subscription-form button {
+        border-radius: 20px;
+        margin: 5px 0;
+    }
+}
